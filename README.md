@@ -26,7 +26,7 @@ https://konuladatejaswini.github.io/smart-task-manager/
 
 ## 📷 Screenshot
 
-(Add a screenshot of your project here later.)
+![Smart Task Manager](screenshot(58).png)
 
 ## 👩‍💻 Author
 
