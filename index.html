@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=""UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <title>Smart Task Manager</title>
+        <link rel="stylesheet" href="style.css">       
+    </head>
+    <body>
+        <div class="container">
+          <h1>Smart Task Manager</h1>
+
+          <button id="darkModeBtn">🌙 Dark Mode</button>
+
+          <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <select id="priorityInput">
+              <option value = "High">🔴 High</option>
+              <option value = "Medium">🟡 Medium</option>
+              <option value = "Low">🟢 Low</option>
+            </select>
+            <input type="date" id="dueDateInput">
+            <button id="addTaskBtn">Add Task</button>
+            
+          </div>
+          <input type="text" id="searchInput" placeholder="🔍 Search tasks...">
+          <div class="filter-section">
+            <button id="allBtn">All</button>
+            <button id="completedBtn">Completed</button>
+            <button id="pendingBtn">Pending</button>
+            <button id="clearAllBtn">🗑️ Clear All</button>
+          </div>
+          <p id="taskCounter">
+            Total:0 | Completed:0 | Pending:0
+          </p>
+          <div class="progress-container">
+            <div id="progressBar"></div>
+          </div>
+          <p id="progressText">0% Completed</p>
+          <ul id="taskList"></ul>
+
+          </div>
+          <script src="script.js"></script>
+        </div>
+    </body>
+</html>
